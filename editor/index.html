@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Code Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="editor">
+      <div class="tabs">
+        <button class="tab active" data-tab="html">HTML</button>
+        <button class="tab" data-tab="css">CSS</button>
+        <button class="tab" data-tab="js">JavaScript</button>
+      </div>
+      <textarea id="html-code" class="code" placeholder="Write HTML here..."></textarea>
+      <textarea id="css-code" class="code" placeholder="Write CSS here..." style="display:none;"></textarea>
+      <textarea id="js-code" class="code" placeholder="Write JavaScript here..." style="display:none;"></textarea>
+    </div>
+
+    <div class="controls">
+      <button id="upload-btn" class="btn">Upload Asset</button>
+      <button id="network-btn" class="btn">View Live Preview</button>
+      <button id="download-btn" class="btn">Download HTML</button>
+    </div>
+
+    <div class="preview">
+      <iframe id="live-preview" src="about:blank"></iframe>
+    </div>
+  </div>
+
+  <input type="file" id="file-input" style="display:none;">
+  <script src="script.js"></script>
+</body>
+</html>
