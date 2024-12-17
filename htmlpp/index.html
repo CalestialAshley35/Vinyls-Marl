@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML++ Editor</title>
+
+  <!-- CodeMirror CSS (For code editor) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/theme/dracula.min.css">
+
+  <!-- Prism.js CSS (For syntax highlighting) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>HTML++ Editor</h1>
+  <p>Write HTML++ or standard HTML code, upload images, and see the results live.</p>
+
+  <!-- Button to Try HTML++ Web Library -->
+  <div>
+    <a href="better-html-web.html">
+      <button id="tryHtmlppBtn">Try HTML++ Web Library</button>
+    </a>
+  </div>
+
+  <!-- Image Upload Section -->
+  <div>
+    <input type="file" id="imageUpload" accept="image/*">
+    <p id="fileDetails">No file selected.</p>
+  </div>
+
+  <!-- Code Editor Section -->
+  <div class="editor">
+    <textarea id="code" placeholder="Write your HTML++ or HTML code here..."></textarea>
+    <button id="runCode">Run Code</button>
+  </div>
+
+  <!-- Output Section -->
+  <div class="output" id="output"></div>
+
+  <!-- CodeMirror JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/htmlmixed/htmlmixed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/addon/edit/matchbrackets.min.js"></script>
+
+  <!-- Prism.js JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-html.min.js"></script>
+
+  <script src="scripts.js"></script>
+</body>
+                                                                               </html>
