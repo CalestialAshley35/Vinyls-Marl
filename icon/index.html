@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Icon Copier</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Click on an Icon to Copy its Code</h1>
+
+    <div class="icon-container">
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-house&quot;></i>')">
+            <i class="fa-solid fa-house"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-house&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-magnifying-glass&quot;></i>')">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-magnifying-glass&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-user&quot;></i>')">
+            <i class="fa-solid fa-user"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-user&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-brands fa-facebook&quot;></i>')">
+            <i class="fa-brands fa-facebook"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-brands fa-facebook&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-thin fa-check&quot;></i>')">
+            <i class="fa-thin fa-check"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-thin fa-check&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-download&quot;></i>')">
+            <i class="fa-solid fa-download"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-download&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-brands fa-twitter&quot;></i>')">
+            <i class="fa-brands fa-twitter"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-brands fa-twitter&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-image&quot;></i>')">
+            <i class="fa-solid fa-image"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-image&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-brands fa-instagram&quot;></i>')">
+            <i class="fa-brands fa-instagram"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-brands fa-instagram&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-phone&quot;></i>')">
+            <i class="fa-solid fa-phone"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-phone&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-brands fa-tiktok&quot;></i>')">
+            <i class="fa-brands fa-tiktok"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-brands fa-tiktok&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-bars&quot;></i>')">
+            <i class="fa-solid fa-bars"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-bars&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-solid fa-envelope&quot;></i>')">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-solid fa-envelope&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-brands fa-linkedin&quot;></i>')">
+            <i class="fa-brands fa-linkedin"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;&lt;/i&gt;</div>
+        </div>
+        <div class="icon-item" onclick="copyCode('<i class=&quot;fa-brands fa-github&quot;></i>')">
+            <i class="fa-brands fa-github"></i>
+            <div class="icon-code">&lt;i class=&quot;fa-brands fa-github&quot;&gt;&lt;/i&gt;</div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">
+        Icon code copied to clipboard!
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
