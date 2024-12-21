@@ -97,6 +97,27 @@ h1 {
     gap: 20px;
 }
 
+/* Custom Style for ProjectLabs Button */
+.projectlabs-btn {
+    background: linear-gradient(145deg, #FF6F61, #D55A4B); /* Custom gradient */
+}
+
+.projectlabs-btn:hover {
+    background: linear-gradient(145deg, #D55A4B, #FF6F61); /* Custom reverse gradient on hover */
+    text-shadow: 0 0 10px rgba(255, 102, 102, 0.6); /* Custom glow effect */
+}
+
+.projectlabs-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Smaller shadow on active */
+}
+
+.try-section .btn-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
 /* Animation */
 @keyframes fadeIn {
     0% {
