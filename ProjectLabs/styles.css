@@ -46,6 +46,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    gap: 20px; /* Add spacing between cards */
     min-height: 60vh;
 }
 
@@ -127,4 +129,4 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
-  }
+}
