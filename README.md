@@ -18,7 +18,7 @@ HTML++ is an extended version of HTML that introduces custom tags for enhanced f
 - **<embedContent>**: Embeds external content like YouTube videos or other media.
 - **<codeBlock>**: Displays code with syntax highlighting.
 - **<formElement>**: Creates form elements like text inputs.
-
+- 
 ### 3. **Asset Uploading**
 Easily upload assets such as images, CSS files, or JavaScript files. Vinyl's Marl supports automatic embedding of assets (e.g., `<img>` tags for images).
 
@@ -48,6 +48,11 @@ Once created, you can import your custom tag into your project using:
 
 You can download your work as an HTML file and preview it live in the about:blank tab.
 ```
+
+### 8. **Vinyl's DaFront**
+Build HTML5 Applications with buttons like Adding Header and Paragraph 
+You need to upload Image and you can add Headers, Paragraph, Add Links, Lists, Canvas, Navs
+
 ---
 
 How to Use
@@ -62,7 +67,7 @@ Click on the Font Awesome Icons button to access and copy popular icons. Vinyl's
 
 3. Explore ProjectLabs
 
-Click on ProjectLabs to explore different projects. Try out the HTML++ extension, which introduces custom tags like <videoEmbed>, <fontStyle>, <textStyle>, and more.
+Click on ProjectLabs to explore different projects. Try out the HTML++ extension, which introduces custom tags like <videoEmbed>, <fontStyle>, <textStyle>, and more. and Try out Vinyl's DaFront 
 
 4. Create Custom Tags with HTML++
 
@@ -82,6 +87,7 @@ Use the HTML++ extension to extend HTML with new functionality:
 Create and install modules using esh commands:
 
 # Create a module
+```
 esh create myCard html:<div class="card"><h2>Title</h2><p>Description goes here...</p></div>
 
 # Install a module
@@ -96,7 +102,7 @@ To create your own custom tag:
 Then, import it into your project:
 
 <import><myTag></import>
-
+```
 ---
 
 ## Installation
