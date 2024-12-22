@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyl's DaFront</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Vinyl's DaFront</h2>
+        <button onclick="addHeader()">Add Header</button>
+        <button onclick="addParagraph()">Add Paragraph</button>
+        <button onclick="addList()">Add List</button>
+        <button onclick="addNav()">Add Navigation Bar</button>
+        <button onclick="addCustomCSS()">Custom CSS</button>
+        <button onclick="addLink()">Add Link</button>
+        <button onclick="addCanvas()">Add Canvas</button>
+        <button onclick="uploadImage()">Upload Image</button>
+        <button onclick="clearWorkspace()">Clear Workspace</button>
+    </div>
+
+    <div id="workspace">
+        <div id="controls">
+            <button onclick="saveToLocalStorage()">Save Workspace</button>
+            <button onclick="loadFromLocalStorage()">Load Workspace</button>
+            <button onclick="clearConsole()">Clear Console</button>
+        </div>
+        <div id="preview" contenteditable="true"></div>
+        <div id="console"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
